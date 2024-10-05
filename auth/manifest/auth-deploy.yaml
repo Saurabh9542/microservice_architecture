@@ -26,6 +26,6 @@ spec:
             - containerPort: 5000
           envFrom:
             - configMapRef:
-                name: auth-configmap   # Fix typo here, ensure the ConfigMap name is correct
-            - secretRef:                # Fix typo here
+                name: auth-configmap
+            - secretRef:               
                 name: auth-secret
