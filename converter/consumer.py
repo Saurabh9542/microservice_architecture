@@ -1,7 +1,7 @@
 import pika, sys, os, time
 from pymongo import MongoClient
 import gridfs
-from converter import to_mp3
+from convert import to_mp3
 
 
 def main():
